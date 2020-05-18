@@ -1,0 +1,122 @@
+.App2{
+    background-image: url(../background01.jpg) ;
+    background-repeat: no-repeat;
+ background-attachment: fixed ;
+   background-position: center;
+ background-size: cover; 
+ height: 652px;
+
+}
+
+h1{
+    text-align: left;
+     color: white;
+     font-family: 'Numans', sans-serif;
+    font-size: 32px;
+}
+h6{
+    text-align: left;
+     color: blanchedalmond;
+     font-family: 'Numans', sans-serif;
+    font-size: 15px;
+}
+h5{
+    text-align: center;
+     color: black ;
+     font-family: 'Numans', sans-serif;
+     font-size: 20px;
+    
+}
+#btn{
+    position: relative;
+    left: 500px;
+}
+h2{ text-align: center ;
+    color:#dd0a37;
+    font-family: 'Numans', sans-serif;
+}
+h3{
+    text-align: center ;
+    color: black;
+    font-family: 'Numans', sans-serif;
+}
+p{
+    text-align: center;
+    color: black;
+}
+.classe1{
+    
+    text-align: center;
+    border-radius: 20px;
+    font-size:10px;
+    border:3px solid #dd0a37;
+}
+.about{
+    border:4px solid rgb(243, 240, 235) ; 
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+.conf-fait{
+    border:4px solid rgb(243, 240, 235) ; 
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: none ;
+    border-left-style: none;
+}
+.main {
+ text-align: center;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.title {
+font-size: 42px;
+}
+
+
+.image {
+ height: 100px;
+ width: 100px;
+ font-size: 25px;
+ background: blue;
+ margin: 10px;
+ display: inline-block;
+ line-height: 100px; 
+}
+
+
+.image-container {
+ vertical-align: middle;
+ display: inline-block;
+ white-space: nowrap;
+ overflow-x: auto;
+ overflow-y: hidden;
+ width: 50%;
+}
+
+.prev, .next {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ height: 100%;
+ cursor: pointer;
+ color: black;
+ transition: 0.6s ease;
+}
+
+.next {
+ margin-left: 5px;
+}
+
+.prev {
+ margin-right: 5px;
+}
+
+.prev:hover, .next:hover {
+ color: white;
+ height: 100%;
+ background-color: rgba(0,0,0,0.8);
+}
